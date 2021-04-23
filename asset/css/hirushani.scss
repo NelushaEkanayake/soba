@@ -1,0 +1,63 @@
+#contact{
+    background-image: url(../img/contact/conbg.jpg);
+    background-attachment: fixed;
+    padding: 0px;
+    background-size: cover;
+    width: 100%;
+  
+    
+   
+    .back{
+       background-color: rgba(0, 0, 0, 0.5);
+       padding: 60px;
+  
+  
+       .title{
+         font-size: 2em;
+         line-height: 48px;
+        
+        
+       }
+       .form-control{
+        background-color: #f1efef;
+       }
+      
+       }
+       .d-btn {
+        background-image: linear-gradient(to right, #78d3c4 0%, #079499 50%);
+        border-radius: 30px;
+        color: black;
+        height: 50px;
+        margin: 0 auto;
+        padding: 2px;
+        text-decoration: none;
+        width: 167px;
+       
+    
+            :hover {
+                color: #fff;
+                background: transparent;
+            } 
+    
+            span {
+                align-items: center;
+                background: #e7e8e9;
+                border-radius: 40px;
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                transition: background .5s ease;
+                width: 100%;
+            }
+          
+    }
+    
+    
+    
+  
+         
+  }
+
+
+      
+    

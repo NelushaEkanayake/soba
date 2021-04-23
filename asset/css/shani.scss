@@ -1,0 +1,109 @@
+#service{
+ padding-bottom: 5em;
+  .i-hexagon{
+    float:left;
+    position: relative;
+    padding: 3px;
+    width: 33.33%;   
+
+    p{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color:#fff;
+        z-index: 10;
+
+        i{
+            font-size: 3em;
+            text-align: center;
+        }
+        span{
+            text-align: center;
+            padding: 2em;
+            font-size: 1.25em;
+
+        }
+        
+    }
+
+    svg{
+        width: 100%;
+        height: 100%;
+    }
+
+    > svg{
+        stroke: #1e2530;
+        stroke-width: 0.5px;
+        
+    }
+
+    &:nth-child(4){
+        margin-left: 16.66%;
+        margin-top: -9.4%;
+    }
+
+    &:nth-child(5){
+        margin-top: -9.4%;
+    }
+    
+
+    .i-s{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        padding:10px;
+     }
+    }
+  
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+    #service{
+        .i-hexagon{
+            width: 50%;
+
+            &:nth-child(3){
+                margin-left: 25%;
+                margin-top: -14%;
+            }
+
+            &:nth-child(4){
+                margin-left: 0;
+                margin-top: -14%;
+            }
+
+            &:nth-child(5){
+                margin-top: -14%;
+            }
+
+            p{
+                i{
+                  padding-top: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #service{
+        .i-hexagon{
+            width: 100%;
+
+            &:nth-child(4){
+                margin-top: 0;
+                margin-left: 0;
+            }
+
+            &:nth-child(5){
+                margin-top: 0;
+            }
+        }
+    }
+}

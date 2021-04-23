@@ -1,0 +1,269 @@
+#cources {
+  background-image: url(../img/cource/b.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+#cources .cource-bg {
+  background-color: #2424c399;
+}
+
+#cources .cource-bg .card-body {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+#cources .cource-bg .card-body .card-title {
+  color: #ff0076;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+
+#cources .cource-bg .card-body .card-text {
+  color: #4e4b4b;
+}
+
+#cources .cource-bg div[class*=box] {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
+#cources .cource-bg .btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+#cources .cource-bg .btn-three {
+  color: #f3eded;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  background-color: #3d9bd8;
+  border-radius: 25px;
+}
+
+#cources .cource-bg .btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(34, 13, 110, 0.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#cources .cource-bg .btn-three:hover::before {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+}
+
+#cources .cource-bg .btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid rgba(185, 184, 190, 0.5);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+#cources .cource-bg .btn-three:hover::after {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+#main-course .courselist {
+  border: .1px solid #bbb;
+  padding: 30px;
+}
+
+#main-course .courselist strong {
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6em;
+}
+
+#main-course .form-check-label {
+  font-size: 1.1em;
+  color: #5e5e5f;
+}
+
+.card {
+  -webkit-box-shadow: 0 0 20px 0px #ececec;
+          box-shadow: 0 0 20px 0px #ececec;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card .card-body {
+  padding: 25px;
+}
+
+.card .card-body .card-title {
+  font-size: 1.2em;
+  color: #e91e63;
+}
+
+.card .card-body .card-text {
+  color: #6d6d6d;
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card *::before, .card *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.card button.learn-more {
+  width: 12rem;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card button.learn-more .circle {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+
+.card button.learn-more .circle .icon {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.card button.learn-more .circle .icon.arrow {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.card button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.5rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.card button.learn-more .button-text {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.35rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card button:hover .circle {
+  width: 100%;
+}
+
+.card button:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+
+.card button:hover .button-text {
+  color: #fff;
+}
+
+@supports (display: grid) {
+  .card body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.625rem;
+        grid-template-areas: ". main main ." ". main main .";
+  }
+  .card #container {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: main;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+/*# sourceMappingURL=sanduni.css.map */

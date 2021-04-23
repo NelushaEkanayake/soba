@@ -1,0 +1,13 @@
+section {
+  padding: 3em 0;
+}
+
+.section-heading h2 {
+  position: relative;
+  padding-bottom: 0.3em;
+}
+
+.section-heading h2.op {
+  color: #ffffff;
+}
+/*# sourceMappingURL=com.css.map */
